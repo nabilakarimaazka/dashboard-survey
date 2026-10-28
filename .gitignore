@@ -1,0 +1,13 @@
+# data survei (mentah & hasil olahan)
+data/landing/*
+!data/landing/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+*.xlsx
+*.duckdb
+*.duckdb.wal
+
+# environment & cache
+.venv/
+__pycache__/
+.env
